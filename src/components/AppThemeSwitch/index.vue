@@ -10,7 +10,6 @@ const textColor = computed(() => {
 </script>
 <template>
   <el-switch
-    class=""
     :width="64"
     v-model="colorMode"
     inline-prompt
@@ -24,11 +23,11 @@ const textColor = computed(() => {
 <style scoped>
 :deep(.el-icon) {
   font-size: 12px !important;
-  margin-right: 0 !important; 
+  margin-right: 0 !important;
 }
 @media (prefers-color-scheme: dark) {
   :deep(.el-icon) {
-  color: black !important 
+  color: black !important
 }
 }
 </style>
