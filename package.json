@@ -17,7 +17,10 @@
     "preview": "nuxi preview",
     "start": "node .output/server/index.mjs",
     "generate": "nuxi generate",
-    "postinstall": "nuxi prepare"
+    "postinstall": "nuxi prepare",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
@@ -25,6 +28,7 @@
   },
   "devDependencies": {
     "@element-plus/nuxt": "^1.0.10",
+    "@histoire/plugin-nuxt": "^0.17.17",
     "@nuxtjs/color-mode": "^3.5.1",
     "@pinia/nuxt": "^0.5.5",
     "@unocss/nuxt": "^0.58.9",
