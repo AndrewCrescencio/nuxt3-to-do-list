@@ -50,6 +50,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@element-plus/nuxt",
     "@nuxtjs/color-mode",
+    "@nuxtjs/supabase",
   ],
 
   // vueuse

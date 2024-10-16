@@ -30,6 +30,7 @@
     "@element-plus/nuxt": "^1.0.10",
     "@histoire/plugin-nuxt": "^0.17.17",
     "@nuxtjs/color-mode": "^3.5.1",
+    "@nuxtjs/supabase": "^1.4.1",
     "@pinia/nuxt": "^0.5.5",
     "@unocss/nuxt": "^0.58.9",
     "@vueuse/nuxt": "^10.11.1",
