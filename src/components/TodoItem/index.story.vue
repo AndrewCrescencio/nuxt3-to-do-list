@@ -1,14 +1,8 @@
 <script lang="ts" setup>
+import { TODO_MOCK } from "~/mock";
 import type { Todo } from "~/types/todo.type";
 
-const todo = reactive<Todo>({
-  description: "Uma descrição para a tarefa",
-  id: 1,
-  title: "Fazer coisas legais",
-  user_id: "223aad",
-  createdAt: "",
-  status: true,
-});
+const todo = reactive<Todo>(TODO_MOCK);
 </script>
 
 <template>
