@@ -89,5 +89,14 @@ export default defineNuxtConfig({
     themes: ["dark"],
   },
 
+  supabase: {
+    redirectOptions: {
+      login: '/login',
+      callback: '/confirm',
+      include: undefined,
+      exclude: ['/'],
+    }
+  },
+
   compatibilityDate: "2024-10-14",
 });
